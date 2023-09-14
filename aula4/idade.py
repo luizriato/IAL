@@ -1,0 +1,6 @@
+datanasc = int(input("digite o ano do seu nascimento: "))
+dataatual = int(input("digite o ano atual: "))
+idade = (dataatual - datanasc)
+print("você tem: ", idade, "anos de idade")
+print("você tem: ", idade * 24, "meses de idade")
+print("você tem: ", idade * 365, "dias de idade")
